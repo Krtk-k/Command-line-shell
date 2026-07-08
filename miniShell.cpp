@@ -35,10 +35,13 @@ int main() {
             if(s == "|") {
                 arg.push_back(nullptr);
                 args.push_back(arg);
+                arg.clear();
             }
             else
                 arg.push_back(const_cast<char*>(s.c_str()));
         }
+        arg.push_back(nullptr);
+        args.push_back(arg);
 
         int row = args.size();
 
