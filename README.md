@@ -210,4 +210,4 @@ You can extend this shell by adding:
 
 ## Author
 
-@Krtk-k
+[@Krtk](https://github.com)
